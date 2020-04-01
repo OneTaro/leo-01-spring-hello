@@ -25,3 +25,33 @@ pom中如不不想使用springframework作为parent，则可以改为如下形�
 ![修改后得parent写法](src/main/resources/static/image/parent2.png)  
 
 可以参考文件：`pom-without-parent.xml`
+
+
+
+
+
+### spring常用注解
+
+Java Config 相关注解
+* @Configuration  -- 表明当前类为配置类
+* @ImportResource  -- 注入额外的配置文件
+* @ComponentScan  -- 扫描哪些bean
+* @Bean  -- 返回一个被spring管理的bean
+* @ConfigurationProperties  -- 配置文件中 配置的前缀，引入配置
+
+定义相关注解
+* @Component/@Repository/@Service
+* @Controller/@RestController
+* @RequestMapping
+
+注入相关注解
+* @Autowired/@Qualifier/@Resource
+* @Value
+
+
+### actuator 监控
+如无必要，在生成环境尽量不要打开
+
+
+
+
