@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.leo.spring.hello</groupId>
-    <artifactId>leo-01-spring-hello</artifactId>
+    <artifactId>leo-001-spring-hello</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>leo-01-spring-hello</name>
+    <name>leo-001-spring-hello</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
